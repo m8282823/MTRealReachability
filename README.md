@@ -2,6 +2,7 @@
 # 结合simplePing和reachability来检测网络状况
 
 # 使用方法:
+```Objective-C
     1.block 
     [[MTRealReachability shareManager] startNetworkNotify:^(MTNetworkStatus networkStatus) {
         NSLog(@"status = %li",networkStatus);
@@ -9,11 +10,11 @@
     
     2.notification 
        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(logNetworkStatus:)             name:MTRealReachabilityChangedNotification object:nil];
-       
+```       
 
 # 使用 cocoapods
-pod 'MTRealReachability'   
-platform :ios, '8.0'
+* pod 'MTRealReachability'   
+* platform :ios, '8.0'
  
 # Manual
 手动拖拽MTRealReachability文件夹下的6个文件
