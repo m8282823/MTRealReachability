@@ -12,9 +12,9 @@
        
 
 # 使用 cocoapods
-platform :ios, '8.0'
-pod 'MTRealReachability'
-
+ pod 'MTRealReachability'
+ platform :ios, '8.0'
+ 
 # Manual
 手动拖拽MTRealReachability文件夹下的6个文件
 
