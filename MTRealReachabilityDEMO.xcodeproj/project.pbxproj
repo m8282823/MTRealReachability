@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B05687C1DC6D41000F30DB2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5B05687B1DC6D41000F30DB2 /* Podfile */; };
-		5B05687D1DC6D59800F30DB2 /* MTNetworkMoniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5967CF1DC1CBD10076AD2E /* MTNetworkMoniter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B05687E1DC6D59800F30DB2 /* MTRealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5967D11DC1CBD10076AD2E /* MTRealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B05687F1DC6D59800F30DB2 /* MTSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B5967D31DC1CBD10076AD2E /* MTSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B0568861DC6D6FF00F30DB2 /* MTNetworkMoniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */; };
+		5B0568871DC6D6FF00F30DB2 /* MTNetworkMoniter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */; };
+		5B0568881DC6D6FF00F30DB2 /* MTRealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */; };
+		5B0568891DC6D6FF00F30DB2 /* MTRealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */; };
+		5B05688A1DC6D6FF00F30DB2 /* MTSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */; };
+		5B05688B1DC6D6FF00F30DB2 /* MTSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */; };
 		5B59679D1DC1CB9D0076AD2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59679C1DC1CB9D0076AD2E /* main.m */; };
 		5B5967A01DC1CB9D0076AD2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59679F1DC1CB9D0076AD2E /* AppDelegate.m */; };
 		5B5967A31DC1CB9D0076AD2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967A21DC1CB9D0076AD2E /* ViewController.m */; };
@@ -19,9 +22,6 @@
 		5B5967AB1DC1CB9D0076AD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5967A91DC1CB9D0076AD2E /* LaunchScreen.storyboard */; };
 		5B5967B61DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967B51DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests.m */; };
 		5B5967C11DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967C01DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m */; };
-		5B5967D51DC1CBD10076AD2E /* MTNetworkMoniter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967D01DC1CBD10076AD2E /* MTNetworkMoniter.m */; };
-		5B5967D61DC1CBD10076AD2E /* MTRealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967D21DC1CBD10076AD2E /* MTRealReachability.m */; };
-		5B5967D71DC1CBD10076AD2E /* MTSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967D41DC1CBD10076AD2E /* MTSimplePing.m */; };
 		5B5967E61DC1CC0A0076AD2E /* MTRealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */; };
 		5B5967ED1DC1CC0A0076AD2E /* MTRealReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967EC1DC1CC0A0076AD2E /* MTRealReachabilityTests.m */; };
 		5B5967F21DC1CC0A0076AD2E /* MTRealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */; };
@@ -85,6 +85,12 @@
 		285371EB884F473B7B5B810A /* Pods-MTRealReachabilityDEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTRealReachabilityDEMO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MTRealReachabilityDEMO/Pods-MTRealReachabilityDEMO.debug.xcconfig"; sourceTree = "<group>"; };
 		4D501394AA68D6D767A3C92C /* Pods-MTRealReachabilityDEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTRealReachabilityDEMO.release.xcconfig"; path = "Pods/Target Support Files/Pods-MTRealReachabilityDEMO/Pods-MTRealReachabilityDEMO.release.xcconfig"; sourceTree = "<group>"; };
 		5B05687B1DC6D41000F30DB2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkMoniter.h; sourceTree = "<group>"; };
+		5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNetworkMoniter.m; sourceTree = "<group>"; };
+		5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRealReachability.h; sourceTree = "<group>"; };
+		5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRealReachability.m; sourceTree = "<group>"; };
+		5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSimplePing.h; sourceTree = "<group>"; };
+		5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSimplePing.m; sourceTree = "<group>"; };
 		5B5967981DC1CB9D0076AD2E /* MTRealReachabilityDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRealReachabilityDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B59679C1DC1CB9D0076AD2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B59679E1DC1CB9D0076AD2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,12 +107,6 @@
 		5B5967BC1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRealReachabilityDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5967C01DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRealReachabilityDEMOUITests.m; sourceTree = "<group>"; };
 		5B5967C21DC1CB9D0076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B5967CF1DC1CBD10076AD2E /* MTNetworkMoniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTNetworkMoniter.h; path = MTRealReachabilityDEMO/MTRealReachability/MTNetworkMoniter.h; sourceTree = SOURCE_ROOT; };
-		5B5967D01DC1CBD10076AD2E /* MTNetworkMoniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTNetworkMoniter.m; path = MTRealReachabilityDEMO/MTRealReachability/MTNetworkMoniter.m; sourceTree = SOURCE_ROOT; };
-		5B5967D11DC1CBD10076AD2E /* MTRealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTRealReachability.h; path = MTRealReachabilityDEMO/MTRealReachability/MTRealReachability.h; sourceTree = SOURCE_ROOT; };
-		5B5967D21DC1CBD10076AD2E /* MTRealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTRealReachability.m; path = MTRealReachabilityDEMO/MTRealReachability/MTRealReachability.m; sourceTree = SOURCE_ROOT; };
-		5B5967D31DC1CBD10076AD2E /* MTSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MTSimplePing.h; path = MTRealReachabilityDEMO/MTRealReachability/MTSimplePing.h; sourceTree = SOURCE_ROOT; };
-		5B5967D41DC1CBD10076AD2E /* MTSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTSimplePing.m; path = MTRealReachabilityDEMO/MTRealReachability/MTSimplePing.m; sourceTree = SOURCE_ROOT; };
 		5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTRealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5967E01DC1CC090076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B5967E51DC1CC090076AD2E /* MTRealReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRealReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,12 +237,12 @@
 		5B5967DE1DC1CC090076AD2E /* MTRealReachability */ = {
 			isa = PBXGroup;
 			children = (
-				5B5967CF1DC1CBD10076AD2E /* MTNetworkMoniter.h */,
-				5B5967D01DC1CBD10076AD2E /* MTNetworkMoniter.m */,
-				5B5967D11DC1CBD10076AD2E /* MTRealReachability.h */,
-				5B5967D21DC1CBD10076AD2E /* MTRealReachability.m */,
-				5B5967D31DC1CBD10076AD2E /* MTSimplePing.h */,
-				5B5967D41DC1CBD10076AD2E /* MTSimplePing.m */,
+				5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */,
+				5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */,
+				5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */,
+				5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */,
+				5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */,
+				5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */,
 				5B5967E01DC1CC090076AD2E /* Info.plist */,
 			);
 			path = MTRealReachability;
@@ -273,9 +273,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B05687D1DC6D59800F30DB2 /* MTNetworkMoniter.h in Headers */,
-				5B05687E1DC6D59800F30DB2 /* MTRealReachability.h in Headers */,
-				5B05687F1DC6D59800F30DB2 /* MTSimplePing.h in Headers */,
+				5B0568881DC6D6FF00F30DB2 /* MTRealReachability.h in Headers */,
+				5B05688A1DC6D6FF00F30DB2 /* MTSimplePing.h in Headers */,
+				5B0568861DC6D6FF00F30DB2 /* MTNetworkMoniter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,10 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5967A31DC1CB9D0076AD2E /* ViewController.m in Sources */,
-				5B5967D61DC1CBD10076AD2E /* MTRealReachability.m in Sources */,
-				5B5967D71DC1CBD10076AD2E /* MTSimplePing.m in Sources */,
 				5B5967A01DC1CB9D0076AD2E /* AppDelegate.m in Sources */,
-				5B5967D51DC1CBD10076AD2E /* MTNetworkMoniter.m in Sources */,
 				5B59679D1DC1CB9D0076AD2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -558,6 +555,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0568871DC6D6FF00F30DB2 /* MTNetworkMoniter.m in Sources */,
+				5B0568891DC6D6FF00F30DB2 /* MTRealReachability.m in Sources */,
+				5B05688B1DC6D6FF00F30DB2 /* MTSimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
