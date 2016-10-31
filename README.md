@@ -12,11 +12,11 @@
        
 
 # 使用 cocoapods
-source 'https://github.com/m8282823/MTRealReachability'
 platform :ios, '8.0'
 pod 'MTRealReachability'
 
-或者手动拖拽MTRealReachability文件夹下的6个文件
+# Manual
+手动拖拽MTRealReachability文件夹下的6个文件
 
 
 ## 目前的版本:0.0.4
