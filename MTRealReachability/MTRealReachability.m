@@ -64,7 +64,7 @@ static MTWWANState wwanStateFromCT(NSString *CTTelephoneType) {
 
 @implementation MTRealReachability {
     CTTelephonyNetworkInfo *_networkInfo;
-    MTNetworkStatus _networkStatus;
+//    MTNetworkStatus _networkStatus;
     NSString *_hostName;
     BOOL _isReachable;
 }

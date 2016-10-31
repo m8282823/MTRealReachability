@@ -18,7 +18,7 @@ typedef NS_ENUM(NSInteger, MTNetworkType) {
 
 
 
-extern NSString *kNetworkChangedNotification;
+extern NSString *MTNetworkChangedNotification;
 
 
 @interface MTNetworkMoniter : NSObject

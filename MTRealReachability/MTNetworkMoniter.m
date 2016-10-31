@@ -10,7 +10,7 @@
 #import <arpa/inet.h>
 #import <SystemConfiguration/SystemConfiguration.h>
 
-NSString *kNetworkChangedNotification = @"kNetworkChangedNotification";
+NSString *MTNetworkChangedNotification = @"kNetworkChangedNotification";
 
 static void MTNetworkMonitorCallBack(
                                      SCNetworkReachabilityRef target,
@@ -21,7 +21,7 @@ static void MTNetworkMonitorCallBack(
     MTNetworkMoniter *noteObject = (__bridge MTNetworkMoniter *)info;
     dispatch_async(dispatch_get_main_queue(), ^{
         !noteObject.notifyBlock ?: noteObject.notifyBlock(noteObject.currentNetworkStatus);
-        [[NSNotificationCenter defaultCenter] postNotificationName:kNetworkChangedNotification object:noteObject];
+        [[NSNotificationCenter defaultCenter] postNotificationName:MTNetworkChangedNotification object:noteObject];
     });
     
 }

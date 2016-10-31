@@ -12,7 +12,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06C8B8FC0C9A7EBC8427576A6AE401E7 /* MTRealReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTRealReachability.h; path = MTRealReachability/MTRealReachability.h; sourceTree = "<group>"; };
 		155E500E8050306C4D44F1F128D79480 /* Pods-MTRealReachabilityDEMO-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTRealReachabilityDEMO-frameworks.sh"; sourceTree = "<group>"; };
 		39A5ABCDED481C5E7B8F88B90CB18E8E /* libPods-MTRealReachabilityDEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTRealReachabilityDEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57EAF2CF10D67DA748170C0AD9E9B304 /* Pods-MTRealReachabilityDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTRealReachabilityDEMO-dummy.m"; sourceTree = "<group>"; };
@@ -58,7 +57,6 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				F4BEF775F85CD6CDC36B4FF737E287CE /* Pods */,
 				E324F599A2A801730AB9FFF48AF64813 /* Products */,
 				59E02902844CA9F6D875FC170CAE5D51 /* Targets Support Files */,
 			);
@@ -79,14 +77,6 @@
 			path = "Target Support Files/Pods-MTRealReachabilityDEMO";
 			sourceTree = "<group>";
 		};
-		B4E2C29D16AB29F7C79F2C7E670EF100 /* MTRealReachability */ = {
-			isa = PBXGroup;
-			children = (
-				06C8B8FC0C9A7EBC8427576A6AE401E7 /* MTRealReachability.h */,
-			);
-			path = MTRealReachability;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +91,6 @@
 				39A5ABCDED481C5E7B8F88B90CB18E8E /* libPods-MTRealReachabilityDEMO.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F4BEF775F85CD6CDC36B4FF737E287CE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B4E2C29D16AB29F7C79F2C7E670EF100 /* MTRealReachability */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

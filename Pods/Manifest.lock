@@ -1,12 +1,3 @@
-PODS:
-  - MTRealReachability (0.0.2)
-
-DEPENDENCIES:
-  - MTRealReachability
-
-SPEC CHECKSUMS:
-  MTRealReachability: 50b21e13fa2db6c8935f0934bcfdb1066ffd1032
-
-PODFILE CHECKSUM: e12dc4ce91aed1ffd20050add3e62fe0a025b8ae
+PODFILE CHECKSUM: e4c9a2b06109a599c1848b4f7cbd330a06ec9b3c
 
 COCOAPODS: 1.1.1

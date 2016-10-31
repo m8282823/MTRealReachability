@@ -44,6 +44,8 @@ typedef NS_ENUM(NSInteger, MTNetworkStatus) {
  */
 @property (nonatomic, assign, readonly) CFTimeInterval pingValue;
 
+@property (nonatomic, assign, readonly) MTNetworkStatus networkStatus;
+
 @property (nonatomic, assign, readonly) MTWWANState wwanState NS_AVAILABLE_IOS(7.0);
 
 
