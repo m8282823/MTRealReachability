@@ -5,10 +5,11 @@
 ```Objective-C
     1.block 
     [[MTRealReachability shareManager] startNetworkNotify:^(MTNetworkStatus networkStatus) {
-        NSLog(@"status = %li",networkStatus);
+        \\\add your code
     }];
     
     2.notification 
+      [[MTRealReachability shareManager] startNetworkNotify:nil];
        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(logNetworkStatus:)             name:MTRealReachabilityChangedNotification object:nil];
 ```       
 
