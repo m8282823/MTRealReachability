@@ -9,8 +9,8 @@
     }];
     
     2.notification 
-      [[MTRealReachability shareManager] startNetworkNotify:nil];
-       [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(logNetworkStatus:)             name:MTRealReachabilityChangedNotification object:nil];
+    [[MTRealReachability shareManager] startNetworkNotify:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(logNetworkStatus:)             name:MTRealReachabilityChangedNotification object:nil];
 ```       
 
 # 使用 cocoapods
