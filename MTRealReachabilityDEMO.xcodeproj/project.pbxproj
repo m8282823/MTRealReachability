@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B0568861DC6D6FF00F30DB2 /* MTNetworkMoniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */; };
+		5B0568861DC6D6FF00F30DB2 /* MTNetworkMoniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B0568871DC6D6FF00F30DB2 /* MTNetworkMoniter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */; };
-		5B0568881DC6D6FF00F30DB2 /* MTRealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */; };
+		5B0568881DC6D6FF00F30DB2 /* MTRealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B0568891DC6D6FF00F30DB2 /* MTRealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */; };
-		5B05688A1DC6D6FF00F30DB2 /* MTSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */; };
+		5B05688A1DC6D6FF00F30DB2 /* MTSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B05688B1DC6D6FF00F30DB2 /* MTSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */; };
 		5B59679D1DC1CB9D0076AD2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59679C1DC1CB9D0076AD2E /* main.m */; };
 		5B5967A01DC1CB9D0076AD2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59679F1DC1CB9D0076AD2E /* AppDelegate.m */; };
