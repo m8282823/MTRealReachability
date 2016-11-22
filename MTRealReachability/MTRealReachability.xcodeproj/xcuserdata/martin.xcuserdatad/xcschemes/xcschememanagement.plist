@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MTRealReachabilityDEMO.xcscheme_^#shared#^_</key>
+		<key>MTRealReachability.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,27 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5B5967971DC1CB9D0076AD2E</key>
+		<key>5BAD5E771DE41CBC002DC646</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5B5967B01DC1CB9D0076AD2E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5B5967BB1DC1CB9D0076AD2E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5B5967DC1DC1CC090076AD2E</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5B5967E41DC1CC090076AD2E</key>
+		<key>5BAD5E801DE41CBD002DC646</key>
 		<dict>
 			<key>primary</key>
 			<true/>

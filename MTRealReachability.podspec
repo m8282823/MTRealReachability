@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'MTRealReachability'
-  s.version      = '0.0.5'
+  s.version      = '0.0.6'
   s.summary      = 'it is a little tools to monitor network'
   s.homepage     = 'https://github.com/m8282823/MTRealReachability'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,9 +13,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source       = { :git => 'https://github.com/m8282823/MTRealReachability.git', :tag => s.version.to_s }
 
-  s.source_files  = 'MTRealReachability/**/*.{h,m}'
+  s.source_files  = 'MTRealReachabilityDEMO/MTRealReachability/**/*.{h,m}'
 
-  s.public_header_files = 'MTRealReachability/**/*.h'
+  s.public_header_files = 'MTRealReachabilityDEMO/MTRealReachability/**/*.h'
 
   s.frameworks  = 'SystemConfiguration', 'QuartzCore', 'CoreGraphics', 'SystemConfiguration'
   s.requires_arc = true

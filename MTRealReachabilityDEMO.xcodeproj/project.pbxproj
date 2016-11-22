@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B0568861DC6D6FF00F30DB2 /* MTNetworkMoniter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B0568871DC6D6FF00F30DB2 /* MTNetworkMoniter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */; };
-		5B0568881DC6D6FF00F30DB2 /* MTRealReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B0568891DC6D6FF00F30DB2 /* MTRealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */; };
-		5B05688A1DC6D6FF00F30DB2 /* MTSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B05688B1DC6D6FF00F30DB2 /* MTSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */; };
 		5B59679D1DC1CB9D0076AD2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59679C1DC1CB9D0076AD2E /* main.m */; };
 		5B5967A01DC1CB9D0076AD2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B59679F1DC1CB9D0076AD2E /* AppDelegate.m */; };
 		5B5967A31DC1CB9D0076AD2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967A21DC1CB9D0076AD2E /* ViewController.m */; };
@@ -21,10 +15,10 @@
 		5B5967AB1DC1CB9D0076AD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5967A91DC1CB9D0076AD2E /* LaunchScreen.storyboard */; };
 		5B5967B61DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967B51DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests.m */; };
 		5B5967C11DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967C01DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m */; };
-		5B5967E61DC1CC0A0076AD2E /* MTRealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */; };
-		5B5967ED1DC1CC0A0076AD2E /* MTRealReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5967EC1DC1CC0A0076AD2E /* MTRealReachabilityTests.m */; };
-		5B5967F21DC1CC0A0076AD2E /* MTRealReachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */; };
-		5B5967F31DC1CC0A0076AD2E /* MTRealReachability.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5BAD5E6A1DE41C30002DC646 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BAD5E631DE41C30002DC646 /* Info.plist */; };
+		5BAD5E6B1DE41C30002DC646 /* MTNetworkMoniter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD5E651DE41C30002DC646 /* MTNetworkMoniter.m */; };
+		5BAD5E6C1DE41C30002DC646 /* MTRealReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD5E671DE41C30002DC646 /* MTRealReachability.m */; };
+		5BAD5E6D1DE41C30002DC646 /* MTSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD5E691DE41C30002DC646 /* MTSimplePing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,27 +36,6 @@
 			remoteGlobalIDString = 5B5967971DC1CB9D0076AD2E;
 			remoteInfo = MTRealReachabilityDEMO;
 		};
-		5B5967E71DC1CC0A0076AD2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B5967901DC1CB9D0076AD2E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B5967DC1DC1CC090076AD2E;
-			remoteInfo = MTRealReachability;
-		};
-		5B5967E91DC1CC0A0076AD2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B5967901DC1CB9D0076AD2E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B5967971DC1CB9D0076AD2E;
-			remoteInfo = MTRealReachabilityDEMO;
-		};
-		5B5967F01DC1CC0A0076AD2E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5B5967901DC1CB9D0076AD2E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B5967DC1DC1CC090076AD2E;
-			remoteInfo = MTRealReachability;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,7 +45,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5B5967F31DC1CC0A0076AD2E /* MTRealReachability.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,12 +52,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkMoniter.h; sourceTree = "<group>"; };
-		5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNetworkMoniter.m; sourceTree = "<group>"; };
-		5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRealReachability.h; sourceTree = "<group>"; };
-		5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRealReachability.m; sourceTree = "<group>"; };
-		5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSimplePing.h; sourceTree = "<group>"; };
-		5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSimplePing.m; sourceTree = "<group>"; };
 		5B5967981DC1CB9D0076AD2E /* MTRealReachabilityDEMO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTRealReachabilityDEMO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B59679C1DC1CB9D0076AD2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B59679E1DC1CB9D0076AD2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,11 +68,15 @@
 		5B5967BC1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRealReachabilityDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5967C01DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRealReachabilityDEMOUITests.m; sourceTree = "<group>"; };
 		5B5967C21DC1CB9D0076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MTRealReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B5967E01DC1CC090076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B5967E51DC1CC090076AD2E /* MTRealReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRealReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5967EC1DC1CC0A0076AD2E /* MTRealReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRealReachabilityTests.m; sourceTree = "<group>"; };
 		5B5967EE1DC1CC0A0076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAD5E631DE41C30002DC646 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BAD5E641DE41C30002DC646 /* MTNetworkMoniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkMoniter.h; sourceTree = "<group>"; };
+		5BAD5E651DE41C30002DC646 /* MTNetworkMoniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNetworkMoniter.m; sourceTree = "<group>"; };
+		5BAD5E661DE41C30002DC646 /* MTRealReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRealReachability.h; sourceTree = "<group>"; };
+		5BAD5E671DE41C30002DC646 /* MTRealReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRealReachability.m; sourceTree = "<group>"; };
+		5BAD5E681DE41C30002DC646 /* MTSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSimplePing.h; sourceTree = "<group>"; };
+		5BAD5E691DE41C30002DC646 /* MTSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSimplePing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B5967F21DC1CC0A0076AD2E /* MTRealReachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,21 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B5967D91DC1CC090076AD2E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B5967E21DC1CC090076AD2E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B5967E61DC1CC0A0076AD2E /* MTRealReachability.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +117,6 @@
 				5B59679A1DC1CB9D0076AD2E /* MTRealReachabilityDEMO */,
 				5B5967B41DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests */,
 				5B5967BF1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests */,
-				5B5967DE1DC1CC090076AD2E /* MTRealReachability */,
 				5B5967EB1DC1CC0A0076AD2E /* MTRealReachabilityTests */,
 				5B5967991DC1CB9D0076AD2E /* Products */,
 				03CB065CE48EAAA788187040 /* Frameworks */,
@@ -176,8 +129,6 @@
 				5B5967981DC1CB9D0076AD2E /* MTRealReachabilityDEMO.app */,
 				5B5967B11DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests.xctest */,
 				5B5967BC1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.xctest */,
-				5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */,
-				5B5967E51DC1CC090076AD2E /* MTRealReachabilityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -185,6 +136,7 @@
 		5B59679A1DC1CB9D0076AD2E /* MTRealReachabilityDEMO */ = {
 			isa = PBXGroup;
 			children = (
+				5BAD5E621DE41C30002DC646 /* MTRealReachability */,
 				5B59679E1DC1CB9D0076AD2E /* AppDelegate.h */,
 				5B59679F1DC1CB9D0076AD2E /* AppDelegate.m */,
 				5B5967A11DC1CB9D0076AD2E /* ViewController.h */,
@@ -224,20 +176,6 @@
 			path = MTRealReachabilityDEMOUITests;
 			sourceTree = "<group>";
 		};
-		5B5967DE1DC1CC090076AD2E /* MTRealReachability */ = {
-			isa = PBXGroup;
-			children = (
-				5B0568801DC6D6FF00F30DB2 /* MTNetworkMoniter.h */,
-				5B0568811DC6D6FF00F30DB2 /* MTNetworkMoniter.m */,
-				5B0568821DC6D6FF00F30DB2 /* MTRealReachability.h */,
-				5B0568831DC6D6FF00F30DB2 /* MTRealReachability.m */,
-				5B0568841DC6D6FF00F30DB2 /* MTSimplePing.h */,
-				5B0568851DC6D6FF00F30DB2 /* MTSimplePing.m */,
-				5B5967E01DC1CC090076AD2E /* Info.plist */,
-			);
-			path = MTRealReachability;
-			sourceTree = "<group>";
-		};
 		5B5967EB1DC1CC0A0076AD2E /* MTRealReachabilityTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,20 +185,21 @@
 			path = MTRealReachabilityTests;
 			sourceTree = "<group>";
 		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		5B5967DA1DC1CC090076AD2E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B0568881DC6D6FF00F30DB2 /* MTRealReachability.h in Headers */,
-				5B05688A1DC6D6FF00F30DB2 /* MTSimplePing.h in Headers */,
-				5B0568861DC6D6FF00F30DB2 /* MTNetworkMoniter.h in Headers */,
+		5BAD5E621DE41C30002DC646 /* MTRealReachability */ = {
+			isa = PBXGroup;
+			children = (
+				5BAD5E631DE41C30002DC646 /* Info.plist */,
+				5BAD5E641DE41C30002DC646 /* MTNetworkMoniter.h */,
+				5BAD5E651DE41C30002DC646 /* MTNetworkMoniter.m */,
+				5BAD5E661DE41C30002DC646 /* MTRealReachability.h */,
+				5BAD5E671DE41C30002DC646 /* MTRealReachability.m */,
+				5BAD5E681DE41C30002DC646 /* MTSimplePing.h */,
+				5BAD5E691DE41C30002DC646 /* MTSimplePing.m */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			path = MTRealReachability;
+			sourceTree = "<group>";
 		};
-/* End PBXHeadersBuildPhase section */
+/* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
 		5B5967971DC1CB9D0076AD2E /* MTRealReachabilityDEMO */ = {
@@ -275,7 +214,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5B5967F11DC1CC0A0076AD2E /* PBXTargetDependency */,
 			);
 			name = MTRealReachabilityDEMO;
 			productName = MTRealReachabilityDEMO;
@@ -318,43 +256,6 @@
 			productReference = 5B5967BC1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		5B5967DC1DC1CC090076AD2E /* MTRealReachability */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B5967F41DC1CC0A0076AD2E /* Build configuration list for PBXNativeTarget "MTRealReachability" */;
-			buildPhases = (
-				5B5967D81DC1CC090076AD2E /* Sources */,
-				5B5967D91DC1CC090076AD2E /* Frameworks */,
-				5B5967DA1DC1CC090076AD2E /* Headers */,
-				5B5967DB1DC1CC090076AD2E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MTRealReachability;
-			productName = MTRealReachability;
-			productReference = 5B5967DD1DC1CC090076AD2E /* MTRealReachability.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		5B5967E41DC1CC090076AD2E /* MTRealReachabilityTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B5967F81DC1CC0A0076AD2E /* Build configuration list for PBXNativeTarget "MTRealReachabilityTests" */;
-			buildPhases = (
-				5B5967E11DC1CC090076AD2E /* Sources */,
-				5B5967E21DC1CC090076AD2E /* Frameworks */,
-				5B5967E31DC1CC090076AD2E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5B5967E81DC1CC0A0076AD2E /* PBXTargetDependency */,
-				5B5967EA1DC1CC0A0076AD2E /* PBXTargetDependency */,
-			);
-			name = MTRealReachabilityTests;
-			productName = MTRealReachabilityTests;
-			productReference = 5B5967E51DC1CC090076AD2E /* MTRealReachabilityTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -379,15 +280,6 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5B5967971DC1CB9D0076AD2E;
 					};
-					5B5967DC1DC1CC090076AD2E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-					};
-					5B5967E41DC1CC090076AD2E = {
-						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 5B5967971DC1CB9D0076AD2E;
-					};
 				};
 			};
 			buildConfigurationList = 5B5967931DC1CB9D0076AD2E /* Build configuration list for PBXProject "MTRealReachabilityDEMO" */;
@@ -406,8 +298,6 @@
 				5B5967971DC1CB9D0076AD2E /* MTRealReachabilityDEMO */,
 				5B5967B01DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests */,
 				5B5967BB1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests */,
-				5B5967DC1DC1CC090076AD2E /* MTRealReachability */,
-				5B5967E41DC1CC090076AD2E /* MTRealReachabilityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -417,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BAD5E6A1DE41C30002DC646 /* Info.plist in Resources */,
 				5B5967AB1DC1CB9D0076AD2E /* LaunchScreen.storyboard in Resources */,
 				5B5967A81DC1CB9D0076AD2E /* Assets.xcassets in Resources */,
 				5B5967A61DC1CB9D0076AD2E /* Main.storyboard in Resources */,
@@ -437,20 +328,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B5967DB1DC1CC090076AD2E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B5967E31DC1CC090076AD2E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -459,7 +336,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5967A31DC1CB9D0076AD2E /* ViewController.m in Sources */,
+				5BAD5E6C1DE41C30002DC646 /* MTRealReachability.m in Sources */,
+				5BAD5E6D1DE41C30002DC646 /* MTSimplePing.m in Sources */,
 				5B5967A01DC1CB9D0076AD2E /* AppDelegate.m in Sources */,
+				5BAD5E6B1DE41C30002DC646 /* MTNetworkMoniter.m in Sources */,
 				5B59679D1DC1CB9D0076AD2E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,24 +360,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B5967D81DC1CC090076AD2E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B0568871DC6D6FF00F30DB2 /* MTNetworkMoniter.m in Sources */,
-				5B0568891DC6D6FF00F30DB2 /* MTRealReachability.m in Sources */,
-				5B05688B1DC6D6FF00F30DB2 /* MTSimplePing.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B5967E11DC1CC090076AD2E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B5967ED1DC1CC0A0076AD2E /* MTRealReachabilityTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -510,21 +372,6 @@
 			isa = PBXTargetDependency;
 			target = 5B5967971DC1CB9D0076AD2E /* MTRealReachabilityDEMO */;
 			targetProxy = 5B5967BD1DC1CB9D0076AD2E /* PBXContainerItemProxy */;
-		};
-		5B5967E81DC1CC0A0076AD2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B5967DC1DC1CC090076AD2E /* MTRealReachability */;
-			targetProxy = 5B5967E71DC1CC0A0076AD2E /* PBXContainerItemProxy */;
-		};
-		5B5967EA1DC1CC0A0076AD2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B5967971DC1CB9D0076AD2E /* MTRealReachabilityDEMO */;
-			targetProxy = 5B5967E91DC1CC0A0076AD2E /* PBXContainerItemProxy */;
-		};
-		5B5967F11DC1CC0A0076AD2E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5B5967DC1DC1CC090076AD2E /* MTRealReachability */;
-			targetProxy = 5B5967F01DC1CC0A0076AD2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -710,72 +557,6 @@
 			};
 			name = Release;
 		};
-		5B5967F51DC1CC0A0076AD2E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MTRealReachability/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.nnoffice.martin.MTRealReachability;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5B5967F61DC1CC0A0076AD2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MTRealReachability/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.nnoffice.martin.MTRealReachability;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5B5967F91DC1CC0A0076AD2E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MTRealReachabilityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.nnoffice.martin.MTRealReachabilityTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTRealReachabilityDEMO.app/MTRealReachabilityDEMO";
-			};
-			name = Debug;
-		};
-		5B5967FA1DC1CC0A0076AD2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MTRealReachabilityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.nnoffice.martin.MTRealReachabilityTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTRealReachabilityDEMO.app/MTRealReachabilityDEMO";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -811,24 +592,6 @@
 			buildConfigurations = (
 				5B5967CC1DC1CB9D0076AD2E /* Debug */,
 				5B5967CD1DC1CB9D0076AD2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B5967F41DC1CC0A0076AD2E /* Build configuration list for PBXNativeTarget "MTRealReachability" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B5967F51DC1CC0A0076AD2E /* Debug */,
-				5B5967F61DC1CC0A0076AD2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5B5967F81DC1CC0A0076AD2E /* Build configuration list for PBXNativeTarget "MTRealReachabilityTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5B5967F91DC1CC0A0076AD2E /* Debug */,
-				5B5967FA1DC1CC0A0076AD2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
