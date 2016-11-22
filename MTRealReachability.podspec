@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'MTRealReachability'
-  s.version      = '0.0.6'
+  s.version      = '0.0.7'
   s.summary      = 'it is a little tools to monitor network'
   s.homepage     = 'https://github.com/m8282823/MTRealReachability'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
