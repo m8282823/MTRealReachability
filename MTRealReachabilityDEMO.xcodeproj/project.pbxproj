@@ -68,8 +68,6 @@
 		5B5967BC1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTRealReachabilityDEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5967C01DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRealReachabilityDEMOUITests.m; sourceTree = "<group>"; };
 		5B5967C21DC1CB9D0076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B5967EC1DC1CC0A0076AD2E /* MTRealReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTRealReachabilityTests.m; sourceTree = "<group>"; };
-		5B5967EE1DC1CC0A0076AD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAD5E631DE41C30002DC646 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BAD5E641DE41C30002DC646 /* MTNetworkMoniter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNetworkMoniter.h; sourceTree = "<group>"; };
 		5BAD5E651DE41C30002DC646 /* MTNetworkMoniter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNetworkMoniter.m; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				5B59679A1DC1CB9D0076AD2E /* MTRealReachabilityDEMO */,
 				5B5967B41DC1CB9D0076AD2E /* MTRealReachabilityDEMOTests */,
 				5B5967BF1DC1CB9D0076AD2E /* MTRealReachabilityDEMOUITests */,
-				5B5967EB1DC1CC0A0076AD2E /* MTRealReachabilityTests */,
 				5B5967991DC1CB9D0076AD2E /* Products */,
 				03CB065CE48EAAA788187040 /* Frameworks */,
 			);
@@ -174,15 +171,6 @@
 				5B5967C21DC1CB9D0076AD2E /* Info.plist */,
 			);
 			path = MTRealReachabilityDEMOUITests;
-			sourceTree = "<group>";
-		};
-		5B5967EB1DC1CC0A0076AD2E /* MTRealReachabilityTests */ = {
-			isa = PBXGroup;
-			children = (
-				5B5967EC1DC1CC0A0076AD2E /* MTRealReachabilityTests.m */,
-				5B5967EE1DC1CC0A0076AD2E /* Info.plist */,
-			);
-			path = MTRealReachabilityTests;
 			sourceTree = "<group>";
 		};
 		5BAD5E621DE41C30002DC646 /* MTRealReachability */ = {
