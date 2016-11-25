@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/m8282823/MTRealReachability'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors            = { 'martin' => 'martinwithxc@gmail.com' }
-  s.social_media_url   = 'http://martin.nnoffice.cn'
+  s.social_media_url   = 'https://github.com/m8282823/MTRealReachability'
 
   s.platform     = :ios, '8.0'
 
